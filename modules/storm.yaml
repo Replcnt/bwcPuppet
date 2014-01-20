@@ -1,10 +1,10 @@
 ---
 #_ ZOOKEEPER _#
 storm_zookeeper_servers:
-  - 'bwc.zookeeper1'
+  - 'bwc-zookeeper1'
 
 #_ NIMBUS _#
-nimbus_host: 'bwc.nimbus'
+nimbus_host: 'bwc-nimbus'
 
 #_ SUPERVISOR _#
 supervisor_workers: '50'
