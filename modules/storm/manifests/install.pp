@@ -15,7 +15,7 @@ class storm::install {
   $BASE_URL="http://192.168.222.1/storm/"
   $ZMQ_FILE="libzmq0_2.1.7_amd64.deb"
   $JZMQ_FILE="libjzmq_2.1.7_amd64.deb"
-  $STORM_FILE="storm_0.8.1_all.deb"
+  $STORM_FILE="storm_0.8.2_all.deb"
 
   package { "wget": ensure => latest }
   
